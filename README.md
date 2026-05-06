@@ -10,6 +10,7 @@
 - Capítulo 4: final, los cerditos se salvan y son felices
 
 ### Plan de commits
+docs: añadir la planificación al README
 feat: Añadir sección de portada con título y personajes
 feat: Añadir estructura de casa de paja para el capítulo 1
 feat: Añadir estructura de casa de madera para el capítulo 2
