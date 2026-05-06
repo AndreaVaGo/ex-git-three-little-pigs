@@ -30,3 +30,10 @@ body {
     padding: 60px;
 }
 
+/* Capítulo 1 - Casa de paja */
+.paja {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5deb3;
+}
