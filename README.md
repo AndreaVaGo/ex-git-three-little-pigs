@@ -22,9 +22,12 @@
 - feat: add SVG illustration for chapter 2
 - feat: add SVG illustration for chapter 3
 - feat: add SVG illustration for chapter 4
+- docs: add Figma prototype link to README
+- docs: add GitHub Pages deployment link to README
 - docs: update README with final screenshot
 
-
+## Prototipo
+[Ver boceto en Figma](https://www.figma.com/make/I3hy5eHVt5tsbMmW4KUeC4/Los-Tres-Cerditos-Web-Page?p=f&t=pW1rs2hzbAW0qGky-0)
 
 
 
