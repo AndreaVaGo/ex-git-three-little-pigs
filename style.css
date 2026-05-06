@@ -58,3 +58,11 @@ h2 {
     padding: 40px;
     background-color: #f5deb3;
 }
+
+/* Capítulo 3 - Final */
+.final {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5deb3;
+}
