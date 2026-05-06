@@ -30,8 +30,21 @@ body {
     padding: 60px;
 }
 
+
+h2 {
+    color: #8B4513;
+}
+
 /* Capítulo 1 - Casa de paja */
 .paja {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5deb3;
+}
+
+/* Capítulo 2 - Casa de madera */
+.madera {
     display: flex;
     align-items: center;
     padding: 40px;
