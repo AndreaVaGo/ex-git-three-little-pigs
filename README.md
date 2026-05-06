@@ -10,20 +10,19 @@
 - Capítulo 4: final, los cerditos se salvan y son felices
 
 ### Plan de commits
-docs: añadir la planificación al README
-feat: Añadir sección de portada con título y personajes
-feat: Añadir estructura de casa de paja para el capítulo 1
-feat: Añadir estructura de casa de madera para el capítulo 2
-feat: Añadir estructura de casa de ladrillo para el capítulo 3
-feat: Añadir estructura de escena final para el capítulo 4
-style: Añadir estilos CSS
-style: Añadir estilos para la portada
-style: Añadir estilos para el capítulo 1
-style: Añadir estilos para el capítulo 2
-style: Añadir estilos para el capítulo 3
-style: Añadir estilos para el capítulo 4
-feat: Añadir imagenes para cada capítulo
-docs: Actualizar el archivo README con capturas de pantalla del proyecto
+- docs: add project planning to README
+- feat: add HTML structure for all sections
+- style: add CSS reset and base body styles
+- style: add cover section styles
+- style: add chapter 1 straw house styles
+- style: add chapter 2 wood house styles
+- style: add chapter 3 brick house styles
+- style: add chapter 4 final scene styles
+- feat: add SVG illustration for chapter 1
+- feat: add SVG illustration for chapter 2
+- feat: add SVG illustration for chapter 3
+- feat: add SVG illustration for chapter 4
+- docs: update README with final screenshot
 
 
 
