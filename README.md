@@ -1,3 +1,52 @@
+# Los Tres Cerditos
+
+## Mi planificación
+
+### Capítulos
+- Portada: presentación del cuento y personajes
+- Capítulo 1: casa de paja, el lobo la derriba
+- Capítulo 2: casa de madera, el lobo la derriba
+- Capítulo 3: casa de ladrillo, el lobo no puede
+- Capítulo 4: final, los cerditos se salvan y son felices
+
+### Plan de commits
+feat: Añadir sección de portada con título y personajes
+feat: Añadir estructura de casa de paja para el capítulo 1
+feat: Añadir estructura de casa de madera para el capítulo 2
+feat: Añadir estructura de casa de ladrillo para el capítulo 3
+feat: Añadir estructura de escena final para el capítulo 4
+style: Añadir estilos CSS
+style: Añadir estilos para la portada
+style: Añadir estilos para el capítulo 1
+style: Añadir estilos para el capítulo 2
+style: Añadir estilos para el capítulo 3
+style: Añadir estilos para el capítulo 4
+feat: Añadir imagenes para cada capítulo
+docs: Actualizar el archivo README con capturas de pantalla del proyecto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Exercise - Git and GitHub - Little Red Riding Hood
 
 ## Descripción
