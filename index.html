@@ -3,88 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Los tres cerditos</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Los Tres Cerditos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <!-- PORTADA -->
 <section class="portada">
-    <div class="texto">
-        <h1>Los Tres Cerditos</h1>
-        <p>Un cuento clásico sobre el esfuerzo y la inteligencia.</p>
-    </div>
-    <img>
+    <h1>Los Tres Cerditos</h1>
+    <img src="images/portada.jpg" alt="Un cerdito mirando a cámara entre la paja">
+    <p>Un cuento clásico sobre tres hermanos cerditos y el lobo feroz.</p>
 </section>
 
 <!-- CAPÍTULO 1 -->
-<section class="paja">
-    <svg width="200" height="200">
-        <!-- tejado -->
-        <polygon points="100,20 20,90 180,90" fill="#c8a96e"/>
-        <!-- paredes -->
-        <rect x="20" y="90" width="160" height="100" fill="#c8a96e"/>
-        <!-- puerta -->
-        <rect x="80" y="140" width="40" height="50" fill="#8B4513"/>
-    </svg>
-    <div class="texto">
-        <h2>Capítulo 1: La casa de paja</h2>
-        <p>El primer cerdito construyó su casa de paja porque quería terminar rápido y jugar.</p>
+<section class="capitulo paja">
+    <div class="capitulo__imagen">
+        <img src="images/paja.jpg" alt="Campo de paja con balas de heno">
+    </div>
+    <div class="capitulo__texto">
+        <h2>Capítulo 1: La Casa de Paja</h2>
+        <p>El primer cerdito decidió construir su casa de paja. "¡Será rápido y fácil!", pensó. En pocas horas, su casa estaba terminada.</p>
+        <p>Pero pronto llegó el lobo feroz. "¡Soplaré y soplaré, y tu casa derribaré!", gritó el lobo. Y con un gran soplido, la casa de paja voló por los aires.</p>
     </div>
 </section>
 
 <!-- CAPÍTULO 2 -->
-<section class="madera">
-    <div class="texto">
-        <h2>Capítulo 2: La casa de madera</h2>
-        <p>El segundo cerdito hizo su casa de madera. Era más fuerte que la de paja, pero no suficiente.</p>
+<section class="capitulo madera">
+    <div class="capitulo__texto">
+        <h2>Capítulo 2: La Casa de Madera</h2>
+        <p>El segundo cerdito construyó su casa con madera. Trabajó más que su hermano, clavando las tablas con cuidado.</p>
+        <p>El lobo apareció y sopló: "¡Soplaré y soplaré, y tu casa derribaré!". Con un soplido más fuerte, la casa de madera se derrumbó.</p>
     </div>
-    <svg width="200" height="200">
-        <!-- tejado -->
-        <polygon points="100,20 20,90 180,90" fill="#8B4513"/>
-        <!-- paredes -->
-        <rect x="20" y="90" width="160" height="100" fill="#D2691E"/>
-        <!-- puerta -->
-        <rect x="80" y="140" width="40" height="50" fill="#8B4513"/>
-    </svg>
+    <div class="capitulo__imagen">
+        <img src="images/madera.jpg" alt="Troncos de madera apilados">
+    </div>
 </section>
 
 <!-- CAPÍTULO 3 -->
-<section class="ladrillo">
-    <svg width="200" height="200">
-        <!-- tejado -->
-        <polygon points="100,20 20,90 180,90" fill="#8B0000"/>
-        <!-- paredes -->
-        <rect x="20" y="90" width="160" height="100" fill="#B22222"/>
-        <!-- puerta -->
-        <rect x="80" y="140" width="40" height="50" fill="#5D3317"/>
-    </svg>
-    <div class="texto">
-        <h2>Capítulo 3: La casa de ladrillo</h2>
-        <p>El tercer cerdito trabajó mucho y construyó una casa resistente de ladrillos.</p>
+<section class="capitulo ladrillo">
+    <div class="capitulo__imagen">
+        <img src="images/ladrillo.jpg" alt="Pared de ladrillos rojos">
+    </div>
+    <div class="capitulo__texto">
+        <h2>Capítulo 3: La Casa de Ladrillo</h2>
+        <p>El tercer cerdito construyó su casa de ladrillos. Tardó muchos días, colocando cada ladrillo con esmero.</p>
+        <p>El lobo sopló y sopló hasta quedarse sin aliento, pero la casa de ladrillos no se movió ni un centímetro. El lobo tuvo que marcharse derrotado.</p>
     </div>
 </section>
 
-<!-- FINAL -->
-<section class="final">
-    <div class="texto">
-        <h2>Capítulo 4: El final</h2>
-        <p>El lobo no pudo derribar la casa de ladrillos y huyó. Los cerditos aprendieron que el esfuerzo vale la pena.</p>
+<!-- CAPÍTULO 4 -->
+<section class="capitulo final">
+    <div class="capitulo__texto">
+        <h2>Capítulo 4: Final Feliz</h2>
+        <p>Los tres cerditos celebraron su victoria. Los hermanos menores aprendieron que el trabajo duro vale la pena.</p>
+        <p>Construyeron dos casas más de ladrillo y vivieron seguros y felices.</p>
+        <p>Y colorín colorado, este cuento se ha acabado.</p>
     </div>
-    <svg width="150" height="150">
-        <!-- cabeza -->
-        <circle cx="75" cy="75" r="60" fill="#ffb6c1"/>
-        <!-- ojo izquierdo -->
-        <circle cx="55" cy="65" r="8" fill="white"/>
-        <circle cx="55" cy="65" r="4" fill="black"/>
-        <!-- ojo derecho -->
-        <circle cx="95" cy="65" r="8" fill="white"/>
-        <circle cx="95" cy="65" r="4" fill="black"/>
-        <!-- nariz -->
-        <ellipse cx="75" cy="90" rx="15" ry="10" fill="#ff9999"/>
-        <!-- fosas nasales -->
-        <circle cx="69" cy="90" r="4" fill="#cc6666"/>
-        <circle cx="81" cy="90" r="4" fill="#cc6666"/>
-    </svg>
+    <div class="capitulo__imagen">
+        <img src="images/final.jpg" alt="Tres cerditos juntos y felices">
+    </div>
 </section>
+
 </body>
 </html>
