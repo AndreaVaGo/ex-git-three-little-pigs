@@ -1,44 +1,94 @@
-# Los Tres Cerditos
+# Los Tres Cerditos 🐷
 
-## Mi planificación
+## Descripción
+Página web que cuenta el cuento clásico de Los Tres Cerditos mediante HTML y CSS, con capítulos claramente diferenciados y una imagen representativa por sección.
 
-### Capítulos
-- Portada: presentación del cuento y personajes
-- Capítulo 1: casa de paja, el lobo la derriba
-- Capítulo 2: casa de madera, el lobo la derriba
-- Capítulo 3: casa de ladrillo, el lobo no puede
-- Capítulo 4: final, los cerditos se salvan y son felices
-
-### Plan de commits
-- docs: add project planning to README
-- feat: add HTML structure for all sections
-- style: add CSS reset and base body styles
-- style: add cover section styles
-- style: add chapter 1 straw house styles
-- style: add chapter 2 wood house styles
-- style: add chapter 3 brick house styles
-- style: add chapter 4 final scene styles
-- feat: add SVG illustration for chapter 1
-- feat: add SVG illustration for chapter 2
-- feat: add SVG illustration for chapter 3
-- feat: add SVG illustration for chapter 4
-- docs: add Figma prototype link to README
-- docs: add GitHub Pages deployment link to README
-- docs: update README with final screenshot
+---
 
 ## Prototipo
+Antes de programar, diseñé el prototipo visual en Figma para planificar el diseño y la estructura de cada sección:
+
 [Ver boceto en Figma](https://www.figma.com/make/I3hy5eHVt5tsbMmW4KUeC4/Los-Tres-Cerditos-Web-Page?p=f&t=pW1rs2hzbAW0qGky-0)
 
+---
 
+## Planificación
 
+### Estructura de capítulos
+Analicé el cuento y lo dividí en 5 secciones clave:
 
+- **Portada**: título, imagen de un cerdito y subtítulo introductorio. Fondo amarillo pálido.
+- **Capítulo 1 – Casa de Paja**: imagen de campo de heno a la izquierda, texto a la derecha. Fondo amarillo pálido.
+- **Capítulo 2 – Casa de Madera**: texto a la izquierda, imagen de troncos a la derecha. Fondo amarillo dorado.
+- **Capítulo 3 – Casa de Ladrillo**: imagen de ladrillos a la izquierda, texto a la derecha. Fondo amarillo pálido.
+- **Capítulo 4 – Final Feliz**: texto a la izquierda, imagen de cerditos a la derecha. Fondo verde menta.
 
+### Estructura de carpetas
+```
+proyecto/
+├── index.html
+├── css/
+│   └── style.css
+├── images/
+│   ├── portada.jpg
+│   ├── paja.jpg
+│   ├── madera.jpg
+│   ├── ladrillo.jpg
+│   └── final.jpg
+└── README.md
+```
 
+---
 
+## Planificación de Commits
 
+Antes de escribir código, planifiqué los commits que iba a realizar, ordenados por lógica de construcción. Cada commit resuelve una única tarea.
 
+### 📋 Tabla de commits planificados
 
+| # | Rama | Commit | Qué hace y por qué |
+|---|------|--------|-------------------|
+| 1 | `docs/planificacion` | `docs: add project planning and commit plan to README` | Documenta la planificación antes de empezar a programar |
+| 2 | `feature/estructura-html` | `feat: add HTML structure for all chapters` | Crea el esqueleto HTML con las 5 secciones del cuento |
+| 3 | `feature/estructura-carpetas` | `feat: organize project into css and images folders` | Organiza el proyecto en carpetas para separar responsabilidades |
+| 4 | `style/base` | `style: add CSS reset and base body styles` | Reset de márgenes y estilos globales del body |
+| 5 | `style/portada` | `style: add cover section styles` | Estilos de la portada: layout centrado, imagen y título |
+| 6 | `style/capitulo-paja` | `style: add chapter 1 straw house styles` | Estilos de la sección paja: layout flex, fondo y color de título |
+| 7 | `style/capitulo-madera` | `style: add chapter 2 wood house styles` | Estilos de la sección madera: fondo dorado y color de título |
+| 8 | `style/capitulo-ladrillo` | `style: add chapter 3 brick house styles` | Estilos de la sección ladrillo: fondo y color de título |
+| 9 | `style/capitulo-final` | `style: add chapter 4 final scene styles` | Estilos del final: fondo verde menta y colores del texto |
+| 10 | `feat/imagenes` | `feat: add images for all sections` | Añade las fotos reales a la carpeta images/ |
+| 11 | `docs/readme-final` | `docs: update README with final screenshot and deploy link` | Añade captura del resultado final y enlace a GitHub Pages |
 
+### 🔀 Flujo de ramas
+
+```
+main
+ └── dev
+      ├── docs/planificacion
+      ├── feature/estructura-html
+      ├── feature/estructura-carpetas
+      ├── style/base
+      ├── style/portada
+      ├── style/capitulo-paja
+      ├── style/capitulo-madera
+      ├── style/capitulo-ladrillo
+      ├── style/capitulo-final
+      ├── feat/imagenes
+      └── docs/readme-final
+```
+
+Cada rama se mergea a `dev` cuando está completa. Al final, `dev` se mergea a `main` para el despliegue.
+
+---
+
+## Despliegue
+[Ver página en GitHub Pages](#) *(pendiente)*
+
+---
+
+## Captura del resultado final
+*(se añadirá tras el despliegue)*
 
 
 
