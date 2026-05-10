@@ -13,3 +13,36 @@ body {
     line-height: 1.7;
     color: #333;
 }
+
+/* =====================
+   PORTADA
+   ===================== */
+.portada {
+    background-color: #fdf5c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+    text-align: center;
+}
+
+.portada h1 {
+    font-size: 2.8rem;
+    color: #8B1A1A;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+}
+
+.portada img {
+    width: 480px;
+    max-width: 90%;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+
+.portada p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 600px;
+}
