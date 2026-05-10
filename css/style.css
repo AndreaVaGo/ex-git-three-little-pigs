@@ -99,3 +99,11 @@ body {
     color: #7a4a00;
 }
 
+/* Capítulo 3 - Ladrillo */
+.ladrillo {
+    background-color: #fdf5c0;
+}
+
+.ladrillo h2 {
+    color: #8B1A1A;
+}
