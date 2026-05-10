@@ -107,3 +107,17 @@ body {
 .ladrillo h2 {
     color: #8B1A1A;
 }
+
+/* Capítulo 4 - Final */
+.final {
+    background-color: #c8ecd5;
+}
+
+.final h2 {
+    color: #1a5c3a;
+}
+
+.final p {
+    color: #2a4a35;
+}
+
