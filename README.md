@@ -83,12 +83,10 @@ Cada rama se mergea a `dev` cuando está completa. Al final, `dev` se mergea a `
 ---
 
 ## Despliegue
-[Ver página en GitHub Pages](#) *(pendiente)*
-
----
+[Ver página en GitHub Pages](https://andreavago.github.io/ex-git-three-little-pigs/)
 
 ## Captura del resultado final
-*(se añadirá tras el despliegue)*
+![Captura del resultado final](images/screenshot.jpg)
 
 
 
