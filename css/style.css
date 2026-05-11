@@ -121,3 +121,11 @@ body {
     color: #2a4a35;
 }
 
+/* FOOTER */
+.footer {
+    background-color: #1a3a5c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
