@@ -27,6 +27,7 @@ Analicé el cuento y lo dividí en 5 secciones clave:
 ```
 proyecto/
 ├── index.html
+├── .gitignore
 ├── css/
 │   └── style.css
 ├── images/
@@ -34,8 +35,10 @@ proyecto/
 │   ├── paja.jpg
 │   ├── madera.jpg
 │   ├── ladrillo.jpg
-│   └── final.jpg
+│   ├── final.jpg
+│   └── screenshot.jpg
 └── README.md
+
 ```
 
 ---
@@ -59,10 +62,10 @@ Antes de escribir código, planifiqué los commits que iba a realizar, ordenados
 | 9 | `style/capitulo-final` | `style: add chapter 4 final scene styles` | Estilos del final: fondo verde menta y colores del texto |
 | 10 | `feat/imagenes` | `feat: add images for all sections` | Añade las fotos reales a la carpeta images/ |
 | 11 | `docs/readme-final` | `docs: update README with final screenshot and deploy link` | Añade captura del resultado final y enlace a GitHub Pages |
+| 12 | feat/gitignore | feat: add gitignore file | Añade el archivo .gitignore para ignorar archivos del sistema |
 
 ### 🔀 Flujo de ramas
 
-```
 main
  └── dev
       ├── docs/planificacion
@@ -75,8 +78,10 @@ main
       ├── style/capitulo-ladrillo
       ├── style/capitulo-final
       ├── feat/imagenes
-      └── docs/readme-final
-```
+      ├── docs/readme-final
+      ├── feat/gitignore
+      ├── feat/footer
+      └── style/footer
 
 Cada rama se mergea a `dev` cuando está completa. Al final, `dev` se mergea a `main` para el despliegue.
 
