@@ -64,7 +64,7 @@ Antes de escribir código, planifiqué los commits que iba a realizar, ordenados
 | 11 | `docs/readme-final` | `docs: update README with final screenshot and deploy link` | Añade captura del resultado final y enlace a GitHub Pages |
 | 12 | feat/gitignore | feat: add gitignore file | Añade el archivo .gitignore para ignorar archivos del sistema |
 | 13 | feat/footer | feat: add footer HTML structure | Añade el footer con el nombre del autor y el año |
-
+| 14 | style/footer | style: add footer styles | Añade los estilos del footer |
 
 
 ### 🔀 Flujo de ramas
